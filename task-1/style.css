@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+    height: 100%;
+    /* Full height for html and body */
+    width: 100%;
+    /* Full width for html and body */
+}
+
+/* slides background */
+.slide1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Picture12.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.slide2,
+.slide3,
+.slide4,
+.slide5,
+.slide6 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #EFEBE5;
+
+}
+
+.slide7 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Picture1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: brightness(50%); */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slide8 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #623E2A;
+}
+
+/* slides content */
+
+/* slides 1 */
+.slide1 h3 {
+    color: #ffffff;
+    font-family: "Arimo", sans-serif;
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.slide1 h1 {
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    letter-spacing: .4rem;
+    font-size: 12rem;
+    margin: 0rem;
+}
+
+.slide1 h2 {
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 5rem;
+    margin: 0rem;
+}
+
+.slide1 a {
+    color: #623E2A;
+    text-decoration: none;
+    /* border: .1rem solid #623E2A; */
+    padding: .7rem 2rem .7rem 2rem;
+    background-color: #EFEBE5;
+    transition: .3s;
+    font-family: "Arimo", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: .3rem;
+    margin-top: 10rem;
+}
+
+.slide1 a:hover {
+
+    background-color: #623E2A;
+    color: #ffffff;
+    cursor: pointer;
+    /* Change cursor to pointer on submit button */
+}
+
+/* slide 2 */
+
+.slide2 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner-slide2 {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.inner-slide2 div {
+    /* background-color: green; */
+    width: 50%;
+
+}
+
+.inner-slide2 img {
+    height: 80%;
+    width: 30%;
+}
+
+.inner-slide2 div h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 1rem;
+    color: #623E2A;
+}
+
+.inner-slide2 div p {
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 5rem;
+    color: #623E2A;
+    letter-spacing: .2rem;
+}
+
+/* slide 3 */
+.slide3 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner-slide3 {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 90%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.inner-slide3 > div{
+    width: 30%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.inner-slide3 div img {
+    height: 50%;
+    width: 100%;
+
+}
+
+.slide3 h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 0rem;
+    color: #623E2A;
+}
+
+.info-box{
+    /* background-color: pink; */
+    margin-top: 2rem;
+    border: 2px solid #623E2A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    height: 25%;
+}
+
+.info-box p{
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 0rem;
+    color: #623E2A;
+}
+
+.info-box h6{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin: 0rem;
+    color: #623E2A;
+    margin-top: 2rem;
+}
+/* slide 4 */
+.slide4 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inner-slide4-1{
+    /* background-color: yellow; */
+    height: 80%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.inner-slide4-2{
+    /* background-color: green; */
+    height: 80%;
+    margin-left: 1rem;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.inner-slide4-2 img{
+    width: 100%;
+    
+}
+
+.inner-slide4-2 div{
+    height: 20%;
+    /* background-color: pink; */
+    border: 2px solid #623E2A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inner-slide4-2 div p{
+    font-family: "Arimo", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 0rem;
+    color: #623E2A;
+    padding: 4rem;
+    text-align: center;
+}
+.inner-slide4-1 h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 7rem;
+    margin: 0rem;
+    color: #623E2A;
+    
+}
+
+.inner-slide4-1 p{
+    font-family: "Arimo", sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 0rem;
+    color: #623E2A;
+    
+}
+
+/* slide5 */
+.slide5 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    /* background-color: pink; */
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.inner-slide5-1{
+    width: 30%;
+    height: 80%;
+    /* background-color: #623E2A; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-slide5-2{
+    width: 60%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.img-S5-1{
+    width: 80%;
+    height: 80%;
+}
+
+.img-S5-2{
+    width: 85%;
+    height: 80%;
+}
+
+.inner-slide5-2 div{
+    /* background-color: gold; */
+    border: 2px solid #623E2A;
+    width: 85%;
+    height: 15%;
+    font-family: "Arimo", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    color: #623E2A;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.inner-slide5-1 div  {
+    /* background-color: red; */
+    border: 2px solid #623E2A;
+    width: 80%;
+    height: 15%;
+    font-family: "Arimo", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    color: #623E2A;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* slide6 */
+.slide6{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.slide6 h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 0rem;
+    color: #623E2A;
+}
+
+.inner-slide6{
+    height: 80%;
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.inner-slide6 > div{
+
+    /* background-color: green; */
+    height: 100%;
+    width: 30%;
+}
+
+.info-slide6{
+    /* background-color: yellow; */
+    border: 2px solid #623E2A;
+    margin-top: 3rem;
+
+}
+.info-slide6 h6{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin: 0rem;
+    color: #623E2A;
+    padding: 2rem;
+}
+
+.info-slide6 p{
+    font-family: "Arimo", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: 0%;
+    color: #623E2A;
+    padding: 2rem;
+    text-align: left;
+
+}
+
+.inner-slide6 > div >img{
+    height: 55%;
+    width: 100%;
+}
+
+/* slide-7 */
+
+.slide7{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner-slide7{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: pink; */
+    height: 80%;
+    width: 100%;
+}
+
+.info-slide7{
+    height: 60%;
+    width: 25%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slide7 h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 0rem;
+    color: #EFEBE5;
+    text-align: center;
+}
+
+.info-slide7 p{
+    font-family: "Arimo", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0%;
+    color: #EFEBE5;
+    padding: 2rem;
+}
+
+
+/* slide-8 */
+.slide8{
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+
+.inner-slide8{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 75%;
+}
+
+.slide8 h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 0rem;
+    display: block;
+    color: #EFEBE5;
+    text-align: left;
+    margin-left: 7rem;
+    margin-top: 10rem;
+}
+.info-slide8{
+    border: 2px solid #EFEBE5;
+    width: 25%;
+    height: 60%;
+}
+
+.info-slide8 h6{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+    margin: 0rem;
+    color: #EFEBE5;
+    padding: 2rem;
+}
+
+#info-slide8-2 p{
+    font-family: "Arimo", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0%;
+    color: #EFEBE5;
+    padding: 2rem;
+}
+
+#info-slide8-1 p{
+    font-family: "Arimo", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0%;
+    color: #EFEBE5;
+    padding: 2rem;
+}
+
+#info-slide8-3 span{
+    font-family: "Arimo", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0%;
+    color: #EFEBE5;
+    padding: 1rem;
+    border: 2px solid #EFEBE5;
+    border-radius: 50%;
+    margin: 2rem;
+
+}
